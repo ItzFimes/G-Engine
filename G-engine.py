@@ -217,6 +217,7 @@ def gminal_installer():  # sourcery skip: ensure-file-closed
                 m.deiconify()
                 gmu.destroy()
             except:
+                # Placeholder errors - silly on purpose
                 messagebox.showerror("Error on line 249",
                                      "An error occurred on line 249 in function 'm.destroy()': couldn't close 'm'")
                 messagebox.showerror("Soluton, WoW so useful, so stonks, good soluton",
@@ -277,6 +278,7 @@ def closeall():
     try:
         m.destroy()
     except:
+        # Placeholder errors - silly on purpose
         messagebox.showerror("Error on line 249","An error occurred on line 249 in function 'm.destroy()': couldn't close 'm'")
         messagebox.showerror("Soluton, WoW so useful, so stonks, good soluton", "Please kill G-engine in taskmanager")
 
